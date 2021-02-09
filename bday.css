@@ -1,0 +1,86 @@
+body{
+    background-image: linear-gradient(to bottom right,orange,pink,tomato,red);
+    height: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Pangolin', cursive;
+}
+#heart1{
+    position: absolute;
+    top:10px;
+    left: 50px;
+    font-size: 50px;
+    color:rgb(255 42 30);
+    height: 0px;
+    animation: grow 2s infinite linear;
+}
+#heart2{
+    position: absolute;
+    top:10px;
+    right: 50px;
+    font-size: 50px;
+    color:rgb(255 42 30);
+    height: 0px;
+    animation: grow 2s infinite linear;
+}
+@keyframes grow{
+    50%{
+        font-size: 100px;
+    }
+}
+h1{
+    text-align: center;
+}
+#pic{
+    width: 54%;
+    height: 500px;
+    margin: auto;
+    border-radius: 20px;
+    animation: pic 40s infinite linear;
+}
+@keyframes pic{
+    0% {
+        background-image: url("1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 54%;
+        height: 600px;
+    }
+    25%{
+        background-image: url("2.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 54%;
+        height: 600px;
+    }
+    50%{
+        background-image: url("3.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 54%;
+        height: 600px;
+    }
+    75%{
+        background-image: url("4.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 54%;
+        height: 600px;
+    }
+    100%{
+        background-image: url("5.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 54%;
+        height: 600px;
+    }
+}
+.vc{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+.des{
+    text-align: center;
+}
